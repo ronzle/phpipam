@@ -1,4 +1,11 @@
 #!/bin/bash
+#####################################################
+#title           :docker-entrypoint.sh
+#description     :This script is a starter script for docker.
+#author          :rlaborius
+#date            :20141211
+#version         :0.1
+
 set -e
 
 if [ ! -f /var/lib/mysql/.initialized  ]; then
