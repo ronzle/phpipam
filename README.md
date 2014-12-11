@@ -3,5 +3,6 @@ phpipam
 
 PHP IP Manager as docker container 
 
-TBD !
+More info at https://registry.hub.docker.com/u/rlaborius/phpipam/
+
 
