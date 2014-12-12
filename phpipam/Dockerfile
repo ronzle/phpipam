@@ -14,7 +14,7 @@ RUN curl -L "http://downloads.sourceforge.net/project/phpipam/phpipam-1.1.tar" >
 RUN rm -fr /var/www/html && cd /tmp && tar -xvf phpipam.tar && mv /tmp/phpipam /var/www/html
 RUN sed -i "s/@localhost/@\\\\'%\\\\'/" /var/www/html/functions/functions-install.php
 
-VOLUME ['/etc/apache2/certs/']
+VOLUME /etc/apache2/certs/
 
 COPY docker-entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
