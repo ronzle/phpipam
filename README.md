@@ -1,4 +1,4 @@
-<h1>phpipam</h1>
+<h2>phpipam</h2>
 =======
 
 PHP IP Manager as docker container 
