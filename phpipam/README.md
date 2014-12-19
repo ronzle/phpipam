@@ -21,6 +21,7 @@ MySQL Server
 
 1. create a ```fig.yml```
 
+```
   phpipam:
     image: rlaborius/phpipam
     links:
@@ -45,7 +46,7 @@ MySQL Server
       - /home/core/docker/phpipam/mysql_data:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD
-
+```
 2. Start the container with following command
 
 behind a proxy
