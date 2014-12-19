@@ -57,13 +57,9 @@ behind a proxy
 standalone
 ```
   MYSQL_ROOT_PASSWORD=YOURPASS MYSQL_PASSWORD=YOURPASS SSL_CN=sub.example.com ./fig up -d
-  
   MYSQL_ROOT_PASSWORD sets a root password in mysql (only if you use rlaborius\mysql) 
-
   MYSQL_PASSWORD sets a password fuer db phpipam (only if you use rlaborius\mysql)
-
   SSL_CN sets the CommonName for the new generated certificate 
-
   VIRTUAL_HOST is needed if you use a proxy 
 ```
 
